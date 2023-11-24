@@ -1,0 +1,55 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+header {
+  width: 100%;
+}
+header .cont {
+  width: 90%;
+}
+header .collapseDiv {
+  justify-content: flex-end;
+  font-size: 15px;
+  font-weight: 600;
+}
+
+.discount {
+  background-image: url(/img/header-bg.jpg);
+  background-size: cover;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.discount .container {
+  width: 90%;
+  margin: 20px;
+  padding: 20px;
+}
+.discount .cartdrige {
+  width: 80%;
+}
+.discount h1 {
+  text-align: center;
+  font-size: 50px;
+  font-weight: 750;
+  color: white;
+  margin-top: 20px;
+  margin-left: 20px;
+}
+.discount .likesdiv {
+  display: flex;
+  gap: 5px;
+}
+.discount .likesdiv p {
+  color: white;
+}
+.discount .divvv {
+  display: flex;
+  gap: 10px;
+  justify-content: flex-start;
+  margin-top: 20px;
+}
